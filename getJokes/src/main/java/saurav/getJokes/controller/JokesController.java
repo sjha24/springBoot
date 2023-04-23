@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package saurav.getJokes.controller;
 
 import org.springframework.beans.factory.annotation.Value;
@@ -22,4 +23,7 @@ public class JokesController {
         int randomNum = 0+(int)Math.random() * ((jokesList.size()-1-0)+1);
         return jokesList.get(randomNum);
     }
+=======
+package saurav.getJokes.controller;public class JokesController {
+>>>>>>> 577ae906c8a6178a957bf44ea707114139a52ee4
 }
