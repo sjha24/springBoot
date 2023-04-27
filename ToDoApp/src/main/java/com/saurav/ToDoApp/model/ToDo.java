@@ -1,10 +1,10 @@
-package com.saurav.ToDoApp.service.model;
+package com.saurav.ToDoApp.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ToDo {
     private String ID;
-    @JsonProperty("toDoName")
+//    @JsonProperty("toDo_name")
     private String toDoName;
     private Boolean status;
 
